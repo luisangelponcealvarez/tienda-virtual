@@ -1,29 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Tienda virtual-Luisangelponce</title>
   <!-- style -->
   <link rel="stylesheet" href="./asset/css/style.css">
   <!-- celular -->
   <link rel="stylesheet" href="./asset/css/celular.css" media="(max-width: 800px)">
-  
+  <!-- link de fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- icon -->
+  <link rel="shortcut icon" href="./asset/icon/shop-solid.svg" type="image/x-icon">
 </head>
+
 <body>
-  
+
   <header id="container-header">
+
+    <img src="./asset/icon/logo.png" alt="logo">
+
+    <h1>Tienda virtual</h1>
+
+    <div class="buscador">
+      <input type="text" name="buscador" id="inputbtn" placeholder="¿Qué deseas buscar?">
+      <button id="btnbuscar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+    <div class="login">
+      <button id="btnlogin">Login</button>
+    </div>
 
   </header>
 
   <main id="container-main">
 
+    <section id="promo">
+      <h1>Promoción</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates id non praesentium ipsum nihil fugiat distinctio reprehenderit qui eligendi, deleniti unde! Facilis ipsa, eveniet voluptatibus maiores fugit veniam commodi laboriosam.
+      </p>
+      <button id="ver-productos">Ver productos</button>
+    </section>
+
+    <section id="sitios-web">
+      <h1>Sitios web</h1>
+
+      <button id="ver-productos">Ver todo</button>
+
+      <div class="producto">
+        <img src="./img/producto-1.png" alt="producto img">
+        <h3>Producto XYZ</h3>
+        <p>$ 60,00</p>
+        <button id="ver-producto">Ver producto</button>
+      </div>
+
+    </section>  
+
   </main>
 
   <footer id="contac">
-
   </footer>
 
 </body>
+
 </html>
