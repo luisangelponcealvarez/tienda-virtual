@@ -8,13 +8,13 @@
 
 #container-header {
   display: flex;
-  background-color: #fff;
-  border-radius: 15px;
+  background-color: rgba(199, 199, 199, .5);
   padding: 5px;
-  margin: 10px;
+  position: fixed;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 #container-header img {
@@ -22,18 +22,44 @@
   height: 50px;
 }
 
-#container-header h1 {
-
-}
-
 #container-header .buscador {
   border-radius: 25px;
 }
 
-/* main */
+/* promo, main */
 
-#container-main #promo{
-  background-color: rgb(88, 88, 88);
+#container-main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+#promo {
+  width: 100%;
+  background-color: rgb(88, 88, 88);
+  margin-top: 3.9em;
+}
 
+#promo .container-text {
+  margin: 3em;
+}
+
+#promo .container-text h1,
+p,
+button {
+  margin: 10px;
+}
+
+#promo button {
+  border-radius: 25px;
+  width: 10em;
+  height: 3em;
+}
+
+/* sitios-web */
+
+#sitios-web{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
