@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 #container-header {
@@ -37,14 +39,11 @@
 #promo {
   width: 100%;
   background-color: rgb(88, 88, 88);
-  margin-top: 3.9em;
+  margin-top: 4em;
+  padding: 5em;
 }
 
-#promo .container-text {
-  margin: 3em;
-}
-
-#promo .container-text h1,
+#promo h1,
 p,
 button {
   margin: 10px;
@@ -56,10 +55,89 @@ button {
   height: 3em;
 }
 
+
+/* container */
+
+#container {
+  width: 100%;
+  margin-top: 10px;
+  padding: 4em;
+}
+
+#container .verTodo i {
+  margin: 10px;
+}
+
+#container .verProducto {
+  color: #7a7a7a;
+}
+
 /* sitios-web */
 
-#sitios-web{
+#sitios-web {
   width: 100%;
+  margin: 10px;
   display: flex;
   flex-wrap: wrap;
 }
+
+#sitios-web h1 {
+  width: 85%;
+}
+
+#sitios-web .producto {
+  width: 200px;
+}
+
+#sitios-web .producto img {
+  width: 100%;
+}
+
+/* consolas */
+
+#consolas {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#consolas h1 {
+  width: 85%;
+}
+
+#consolas .producto {
+  width: 200px;
+}
+
+#consolas .producto img {
+  width: 100%;
+}
+
+/* logos */
+
+#logos {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#logos h1 {
+  width: 85%;
+  margin: 10px;
+}
+
+#logos .producto {
+  width: 200px;
+}
+
+#logos .producto img {
+  width: 100%;
+}
+
+
+
+
+
+
