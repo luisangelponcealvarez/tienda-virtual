@@ -1,0 +1,58 @@
+/* header */
+
+#container-header {
+  width: 100%;
+}
+
+/* main */
+
+#container-main {
+  width: 100%;
+  display: flex;
+}
+
+#promo {
+  width: 100%;
+  margin-top: -0.4em;
+}
+
+#container .producto {
+  width: 300px;
+  background-color: #353535;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+#container {
+  width: 96%;
+  margin-top: 10px;
+  padding: 0em;
+}
+
+/* sitios web */
+
+#sitios-web {
+  width: 100%;
+}
+
+#sitios-web .text {
+  width: 100%;
+}
+
+/* footer */
+
+#contac .containerFooter {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contac .containerFooter .form .nombre {
+  width: 100%;
+  margin: 0;
+}
+
+#contac .containerFooter .form .mensaje {
+  width: 100%;
+  margin-left: 0;
+}

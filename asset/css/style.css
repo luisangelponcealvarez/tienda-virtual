@@ -1,0 +1,223 @@
+/* formateo */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+section {
+  scroll-margin: 90px;
+}
+
+/* header */
+
+#container-header {
+  display: flex;
+  background-color: rgba(199, 199, 199, .5);
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#container-header img {
+  width: 50px;
+  height: 50px;
+}
+
+#container-header .buscador {
+  border-radius: 25px;
+}
+
+/* promo, main */
+
+#container-main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#promo {
+  width: 100%;
+  background-color: rgb(88, 88, 88);
+  margin-top: 5.2em;
+  padding: 5em;
+}
+
+#promo h1,
+p,
+button {
+  margin: 10px;
+}
+
+#promo button {
+  border-radius: 25px;
+  width: 10em;
+  height: 3em;
+}
+
+
+/* container, productos*/
+
+#container {
+  width: 100%;
+  margin-top: 10px;
+  padding: 4em;
+}
+
+#container .verTodo i {
+  margin: 10px;
+}
+
+#container .verProducto {
+  color: #7a7a7a;
+}
+
+.producto {
+  width: 200px;
+  background-color: #353535;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.producto h3,
+p,
+a {
+  margin: 10px;
+}
+
+.producto a:hover {
+  color: #fff;
+}
+
+/* sitios-web */
+
+#sitios-web {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sitios-web h1 {
+  width: 87%;
+}
+
+/* consolas */
+
+#consolas {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#consolas h1 {
+  width: 87%;
+}
+
+/* logos */
+
+#logos {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#logos h1 {
+  width: 87%;
+}
+
+/* footer */
+
+#contac {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#contac .containerFooter{
+  width: 100%;
+  background-color: royalblue;
+  display: flex;
+}
+
+#contac .redes,
+.form,
+.copyright {
+  margin: 15px;
+}
+
+#contac .form .containerForm{
+  margin-left: 5em;
+}
+
+#contac .forms, .nombre, .mensaje {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 10px;
+}
+
+#contac .form .nombre{
+  height: 25px;
+}
+
+#contac .form .mensaje{
+  height: 200px;
+  resize: none;
+}
+
+#contac .redes{
+  margin-left: 5em;
+  width: 50%;
+}
+
+/* icons */
+
+#contac .redes a i {
+  font-size: 25px;
+  color: #000;
+}
+
+#contac .linkedin:hover {
+  color: #00146d;
+}
+
+#contac .github:hover {
+  color: #0a0505;
+}
+
+#contac .instagram:hover {
+  color: #ff1aa7;
+}
+
+#contac .facebook:hover {
+  color: #2600ff;
+}
+
+#contac .twitter:hover {
+  color: #005f6b;
+}
+
+#contac .spotify:hover {
+  color: #06b600;
+}
+
+/* copyright */
+
+#contac .copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 9px;
+}
