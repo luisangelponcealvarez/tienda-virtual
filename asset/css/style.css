@@ -44,7 +44,7 @@ section {
 #promo {
   width: 100%;
   background-color: rgb(88, 88, 88);
-  margin-top: 5.2em;
+  margin-top: 0;
   padding: 5em;
 }
 
@@ -99,6 +99,14 @@ a {
   color: #fff;
 }
 
+.text{
+  width: 100%;
+}
+
+.text h1, a{
+  width: 1%;
+}
+
 /* sitios-web */
 
 #sitios-web {
@@ -109,7 +117,7 @@ a {
 }
 
 #sitios-web h1 {
-  width: 87%;
+  width: 11%;
 }
 
 /* consolas */
